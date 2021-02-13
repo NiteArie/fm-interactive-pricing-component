@@ -65,3 +65,30 @@ body {
     margin-left: 5px;
     color: hsl(225, 20%, 60%);
 }
+
+.main__about {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__feature {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: hsl(227, 35%, 25%);
+}
+
+.main__feature::before {
+    content: "\2713";
+    color: hsl(174, 86%, 45%);
+    margin-right: 10px;
+}
+
+.main__cta {
+    padding: 12px 45px;
+    color: hsl(226, 100%, 87%);
+    background-color: hsl(227, 35%, 25%);
+    border-radius: 20px;
+    border: 0;
+}
