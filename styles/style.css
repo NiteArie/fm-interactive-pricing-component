@@ -27,3 +27,41 @@ body {
 .header__desc {
     color: hsl(225, 20%, 60%);
 }
+
+/* Main */
+
+.main {
+    margin: 0 auto;
+    position: relative;
+    padding: 20px 0;
+    width: 500px;
+}
+
+.main__heading {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__view {
+    color: hsl(225, 20%, 60%);
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.main__pricing {
+    display: flex;
+    align-items: center;
+}
+
+.main__price {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.main__quantity {
+    margin-left: 5px;
+    color: hsl(225, 20%, 60%);
+}
